@@ -4,10 +4,13 @@
   "description": "API oriented to TDD and Clean Architecture",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "lint-staged": {
-    "*.js":["standard --fix", "git add"]
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
   },
   "husky": {
     "hooks": {
@@ -17,6 +20,7 @@
   "author": "matheus",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^27.0.6",
     "lint-staged": "^11.0.0",
     "standard": "^16.0.3"
   }
