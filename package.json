@@ -9,6 +9,7 @@
   "author": "matheus",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^6.0.0",
     "jest": "^27.0.6",
     "lint-staged": "^11.0.0",
     "standard": "^16.0.3"
