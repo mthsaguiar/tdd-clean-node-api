@@ -6,9 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "lint-staged": {
+    "*.js":["standard --fix", "git add"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "author": "matheus",
   "license": "ISC",
   "devDependencies": {
+    "lint-staged": "^11.0.0",
     "standard": "^16.0.3"
   }
 }
