@@ -7,6 +7,9 @@
     "test": "jest",
     "prepare": "husky install"
   },
+  "standard":{
+    "env":["jest"]
+  },
   "author": "matheus",
   "license": "ISC",
   "devDependencies": {
